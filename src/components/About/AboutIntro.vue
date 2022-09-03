@@ -168,13 +168,6 @@ export default {};
       }
     }
       .work {
-    .container {
-      @media (min-width: 1500px) {
-        width: 1466px;
-        padding-right: 15px;
-        padding-left: 15px;
-      }
-    }
     .title{
       padding-top: 84px;
       text-align: center;
@@ -199,10 +192,8 @@ export default {};
         width: 288px;
         height: 172px;
 
-        //  @media (max-width:1904px) {
-
-        //        }
-        @media (max-width: 1264px) {
+       
+        @media (max-width: 1500px) {
           top: 120px;
           width: 250px;
           height: 150px;
@@ -408,9 +399,9 @@ export default {};
             bottom: -260px;
             background-size: 80%;
           }
-            @media (max-width:1264px) {
-              right: -180px;
-              background-size: 60%
+            @media (max-width:1500px) {
+              right: -150px;
+              background-size: 70%
           }
           @media (max-width: 960px) {
             display: none;
@@ -428,9 +419,9 @@ export default {};
             right: 0;
             bottom: -180px;
           }
-            @media (max-width:1264px) {
-              right: -100px;
-              background-size: 80%;
+            @media (max-width:1500px) {
+              right: -90px;
+              background-size: 90%;
           }
           @media (max-width: 960px) {
             display: none;
@@ -448,9 +439,9 @@ export default {};
               top: 380px;
               background-size: 90%;
             }
-              @media (max-width:1264px) {
-              background-size: 100%;
-              top: 445px;
+              @media (max-width:1500px) {
+              background-size: 90%;
+              top: 405px;
             }
             @media (max-width: 960px) {
               display: none;
@@ -472,8 +463,8 @@ export default {};
             background-size: 80%;
            
           }
-            @media (max-width:1264px) {
-              top: 385px;
+            @media (max-width:1500px) {
+              top: 365px;
               left: 180px;
             
           }
@@ -492,7 +483,7 @@ export default {};
           @media (max-width:1904px) {
           bottom: -360px;
           }
-            @media (max-width:1264px) {
+            @media (max-width:1500px) {
             background-size: 90%;
             bottom: -460px;
          
@@ -515,9 +506,9 @@ export default {};
             left: 380px;
          
           }
-            @media (max-width:1264px) {
-          bottom: -380px;
-          left: 280px;
+            @media (max-width:1500px) {
+          bottom: -360px;
+          left: 290px;
           }
           @media (max-width: 960px) {
             display: none;

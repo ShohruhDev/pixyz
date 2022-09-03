@@ -50,13 +50,13 @@
 
 <style lang="scss" scoped>
   .work {
-    .container {
-      @media (min-width: 1500px) {
-        width: 1366px;
-        padding-right: 15px;
-        padding-left: 15px;
-      }
-    }
+    // .container {
+    //   @media (min-width: 1500px) {
+    //     width: 1366px;
+    //     padding-right: 15px;
+    //     padding-left: 15px;
+    //   }
+    // }
     .title{
       padding-top: 84px;
       text-align: center;
@@ -80,12 +80,8 @@
         background: url(@/assets/img/work-arrow.png) no-repeat center/cover;
         width: 288px;
         height: 172px;
-
-        //  @media (max-width:1904px) {
-
-        //        }
-        @media (max-width: 1264px) {
-          top: 120px;
+        @media (max-width: 1500px) {
+          top: 130px;
           width: 250px;
           height: 150px;
         }
@@ -226,7 +222,7 @@
             bottom: -260px;
             background-size: 80%;
           }
-            @media (max-width:1264px) {
+            @media (max-width:1500px) {
               right: -180px;
               background-size: 60%
           }
@@ -246,7 +242,7 @@
             right: 0;
             bottom: -180px;
           }
-            @media (max-width:1264px) {
+            @media (max-width:1500px) {
               right: -100px;
               background-size: 80%;
           }
@@ -267,9 +263,9 @@
             right: -145px;
             bottom: -155px;
           }
-            @media (max-width:1264px) {
+            @media (max-width:1500px) {
             background-size: 70%;
-            right: -290px;
+            right: -255px;
             bottom: -175px;
           }
           @media (max-width: 960px) {

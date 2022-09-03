@@ -4,7 +4,7 @@
     <div class="container">
       <div class="home-intro-wrapper">
         <div class="home-intro__title">
-          <h1>Digital Agency and Marketing</h1>
+          <h1>Digital Agency <br/>and Marketing</h1>
           <p>Lorem ipsum dolor sit amet, consetetur sadipscing </p>
         </div>
         </div> 
@@ -50,7 +50,7 @@
    background: url(@/assets/img/intro-img.png) no-repeat right top 220px;
     padding-top: 180px;
     padding-bottom: 350px;
-      @media (max-width: 1440px){
+      @media (max-width: 1500px){
         background-size: 500px;
         background-position-y: 160px;
         padding-top: 250px;
@@ -79,7 +79,7 @@
     position: relative;
     font-weight: 700;
     z-index: 9999;
-      @media (max-width: 1440px){
+      @media (max-width: 1500px){
         font-size: 40px;
       }
       @media(max-width: 1264px){
@@ -95,8 +95,8 @@
       position: absolute;
       left: -80px;
       top: 45px;
-      @media(max-width:1440px){
-        top: -70px;
+      @media(max-width:1500px){
+        top: 0px;
         left: -60px;
       }
       @media(max-width:1300px){
@@ -112,6 +112,9 @@
     background: url(@/assets/img/title-round.png) no-repeat center/cover;
     width: 232px;
     height: 232px;
+      @media(max-width: 1500px){
+        left: 100px;
+      }
       @media(max-width: 960px){
         display: none;
       }
@@ -121,7 +124,7 @@
     font-size: 24px;
     margin-top: 22px;
     font-weight: 300;
-      @media (max-width: 1440px){
+      @media (max-width: 1500px){
         font-size: 20px;
          width: 500px;
       } 
@@ -162,19 +165,15 @@
      @media screen and (max-width: 1264px) {
         width: 300px;
         height: 300px;
-        bottom: -50px;
+        bottom: -80px;
+        background-size: 90%;
       }
     
      @media screen and (max-width: 960px) {
       display: none;
     }
   }
-  .container {
-    
-    @media screen and (max-width: 960px) {
-      width: 80%;
-    }
-  }
+  
   &-wrapper {
     display: flex;
     justify-content: center;
@@ -192,6 +191,9 @@
     @media screen and (max-width: 1264px) {
       padding: 0 15px;
       margin-bottom: 35px;
+    }
+     @media screen and (max-width: 1264px) {
+      margin-bottom: 0px;
     }
   }
   &-title {

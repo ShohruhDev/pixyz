@@ -476,7 +476,7 @@ export default {
     transform: translate(-50%, 50%);
     animation: pulse 1s infinite;
     cursor: pointer;
-
+    z-index: 2;
     
     &:hover {
       background: #ffffff;
