@@ -1,0 +1,318 @@
+<template>
+  <div class="contact-form" >
+    <div class="container">
+      <div class="contact-form-wrapper">
+        <div class="main-wrapper">
+          <form class="get-touch-body">
+            <h5 class="get-touch-title">Get in Touch</h5>
+            <div class="input-wrapper">
+              <input type="text" placeholder="Name" hide-details />
+              <input type="text" placeholder="Last Name" hide-details />
+            </div>
+            <div class="input-wrapper">
+              <input type="email" placeholder="Email" hide-details />
+              <input type="tel" placeholder="Phone/Telegram" hide-details />
+            </div>
+            <div class="input-wrapper">
+              <v-select
+                class="select"
+                flat
+                placeholder="I am interested in"
+                :items="selects"
+                solo
+                hide-details
+              ></v-select>
+              <v-select
+                class="select"
+                flat
+                :items="items"
+                placeholder="Select Project Budget in USD"
+                solo
+                hide-details
+              ></v-select>
+            </div>
+            <div class="area-wrapper">
+              <textarea
+                class="area"
+                cols="90"
+                rows="10"
+                placeholder="About your Project"
+              ></textarea>
+            </div>
+            <div class="btn-wrapper">
+              <button class="submit" type="submit">Submit</button>
+            </div>
+          </form>
+          <div class="get-touch-contact">
+            <div class="contact-infos">
+              <h6 class="title">Say Hi</h6>
+              <a class="mail" href="#">info@pixyz.com</a>
+              <a class="tel" href="#">+998 71 645 57 67</a>
+              <a class="telegram" href="#">Telegram</a>
+            </div>
+            <div class="get-touch-img">
+              <img src="@/assets/img/get-touch.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  data: () => ({
+    items: ["100$", "500$", "1000$"],
+    selects: ["Accaunting", "IT", "Marketing"],
+  }),
+};
+</script>
+
+<style lang="scss" scoped>
+.contact-form {
+  padding: 100px 0;
+.container {
+  width: 90%;
+}
+  &-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    filter: drop-shadow(3px 3px 30px rgba(0, 0, 0, 0.161));
+
+    @media screen and (max-width: 1264px) {
+      padding: 0 15px;
+    }
+  }
+  .main-wrapper {
+    display: flex;
+  }
+  .get-touch-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 54px 57px 36px 66px;
+    gap: 26px;
+
+    @media screen and (max-width: 960px) {
+      padding: 30px;
+    }
+  }
+
+  .get-touch-title {
+    font-family: "Seg-bold";
+    font-size: 40px;
+    color: #217a73;
+    text-align: start;
+
+    @media screen and (max-width: 1264px) {
+      font-size: 29px;
+    }
+  }
+
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    @media screen and (max-width: 1264px) {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    &.select {
+      @media screen and (max-width: 1904px) {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .select {
+      font-family: "Arial";
+      font-size: 16px;
+      border: 1px solid #49d6cb;
+      width: 100%;
+      color: #c9c9c9;
+       padding: 8px 0;
+     
+    }
+
+    input {
+      font-family: "Arial";
+      font-size: 16px;
+      padding: 18px 40px 20px 28px;
+      border: 1px solid #49d6cb;
+      width: 100%;
+
+      @media screen and (max-width: 1264px) {
+        font-size: 15px;
+        padding: 10px 30px 15px 15px;
+      }
+
+      &:focus {
+        outline: none !important;
+        border: 1px solid #ff8888;
+      }
+
+      &::placeholder {
+        color: #c9c9c9;
+      }
+    }
+  }
+
+  .area {
+    font-family: "Arial";
+    font-size: 16px;
+    border: 1px solid #49d6cb;
+    width: 100%;
+    padding: 16px 25px;
+    color: #c9c9c9;
+
+    &:focus {
+      outline: none !important;
+      border: 1px solid #ff8888;
+    }
+
+    &::-webkit-input-placeholder {
+      color: #c9c9c9;
+    }
+  }
+
+  .btn-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .submit {
+    font-family: "Seg";
+    font-size: 16px;
+    padding: 16px 60px;
+    color: #ffffff;
+    background: #49d6cb;
+    border: 1px solid #49d6cb;
+    cursor: pointer;
+
+    &:hover {
+      color: #49d6cb;
+      background: #ffffff;
+    }
+  }
+
+  .get-touch-contact {
+    display: flex;
+    align-items: flex-start;
+    width: 480px;
+    background: #49d6cb;
+    position: relative;
+
+    @media screen and (max-width: 1264px) {
+      display: none;
+    }
+
+    .contact-infos {
+      position: absolute;
+      top: 15%;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      @media screen and (max-width: 1904px) {
+      position: absolute;
+      top: 89%;
+      right: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      }
+
+      a {
+        font-family: "Seg";
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 18px;
+        color: #ffffff;
+
+        &:not(:last-child) {
+          margin-bottom: 60px;
+        }
+
+        @media screen and (max-width: 1904px) {
+          position: absolute;
+          margin-bottom: 0 !important;
+        }
+      }
+
+      .title {
+        font-family: "Seg-bold";
+        font-size: 32px;
+        line-height: 43px;
+        color: #ffffff;
+        margin-bottom: 45px;
+        transform: translateX(20%);
+        @media screen and (max-width: 1904px) {
+          position: absolute;
+          bottom: 560px;
+          left: 60px;
+          transform: translate(0);
+          margin-bottom: 0;
+        }
+      }
+
+      .mail {
+        transform: translateX(35%);
+
+        @media screen and (max-width: 1904px) {
+          bottom: 510px;
+          transform: translateX(0);
+          left: 70px;
+        }
+      }
+
+      .tel {
+        transform: translateX(45%);
+        @media screen and (max-width: 1904px) {
+          bottom: 440px;
+          left: 60px;
+          transform: translateX(0);
+        }
+      }
+
+      .telegram {
+        transform: translateX(10%);
+        bottom: 350px;
+        @media screen and (max-width: 1904px) {
+          bottom: 350px;
+          left: 70px;
+        }
+        @media screen and (max-width: 1264px) {
+          bottom: 350px;
+          left: 70px;
+        }
+      }
+    }
+
+    .get-touch-img {
+      position: absolute;
+      width: 68%;
+      height: 75%;
+      top: 20%;
+      right: 5%;
+      @media screen and (max-width: 1904px) {
+        position: absolute;
+        width: 68%;
+      height: 75%;
+      top: 20%;
+      right: 5%;;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+</style>
