@@ -50,13 +50,11 @@
 
 <style lang="scss" scoped>
   .work {
-    // .container {
-    //   @media (min-width: 1500px) {
-    //     width: 1366px;
-    //     padding-right: 15px;
-    //     padding-left: 15px;
-    //   }
-    // }
+   .container {
+    @media screen and (max-width: 960px) {
+      padding: 0 15px;
+    }
+  }
     .title{
       padding-top: 84px;
       text-align: center;
@@ -278,10 +276,10 @@
       text-align: center;
       margin-top: 140px;
        @media (max-width:900px) {
-        margin-top: 100px;
+        margin-top: 50px;
       }
       @media (max-width:600px) {
-        margin-top: 80px;
+        margin-top: 40px;
       }
       .step {
         font-family: "Arial";
@@ -294,7 +292,11 @@
         text-decoration: none;
         text-transform: uppercase;
         transition: all 0.3s;
-
+        
+      @media (max-width:900px) {
+        padding: 10px 30px;
+      }
+     
         &:hover {
           color: #49d6cb;
           background: #ffffff;

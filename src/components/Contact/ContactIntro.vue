@@ -113,6 +113,9 @@ export default {
         font-size: 40px;
         color: #ffffff;
         z-index: 2;
+           @media(max-width: 425px){
+          font-size: 35px;
+        }
       }
     }
   }

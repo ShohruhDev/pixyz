@@ -177,7 +177,7 @@
                   </svg>
                 </div>
                 <div class="footer-contact__span">
-                  <span>Emai;</span>
+                  <span>Email</span>
                   <a href="mailto:info@pixyz.com">info@pixyz.com</a>
                 </div>
               </div>
@@ -219,6 +219,9 @@
   background: #f4f6fc;
   position: relative;
   z-index: 1111;
+   @media screen and (max-width: 960px) {
+     padding-bottom: 50px;
+   }
   .container {
     @media screen and (max-width: 960px) {
      width: 90%;
@@ -294,7 +297,6 @@
     margin-bottom: 18px;
     @media screen and (max-width: 600px) {
       text-align: center;
-      margin-top: 10px;
     }
   }
   &-pages {
@@ -326,11 +328,16 @@
       display: flex;
       align-items: center;
       padding-bottom: 30px;
+      @media screen and (max-width: 600px) {
+       flex-direction: column;
+      }
     }
     &__icon {
       padding-right: 10px;
-      @media screen and (max-width: 600px) {
+        @media screen and (max-width: 600px) {
+          padding: 0;
       }
+    
     }
     &__span {
       display: flex;

@@ -128,7 +128,14 @@ export default {
 .home-test {
   padding: 76px 0 81px 0;
   background: #f4f6fc;
-
+    @media screen and (max-width: 960px) {
+      padding: 30px 0;
+    }
+   .container {
+    @media screen and (max-width: 960px) {
+      padding: 0 15px;
+    }
+  }
   .v-window,
   .v-window-item,
   .v-window__container-is-active,

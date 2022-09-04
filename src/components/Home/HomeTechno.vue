@@ -68,7 +68,14 @@ export default {
   @media screen and (max-width:1264px){
     padding: 60px 0;
   }
- 
+   @media screen and (max-width:425px){
+    padding: 30px 0;
+  }
+   .container {
+    @media screen and (max-width: 960px) {
+      padding: 0 15px;
+    }
+  }
   .techno-title {
     position: relative;
     display: flex;

@@ -268,7 +268,11 @@ export default {
   @media screen and (max-width: 1264px) {
     padding: 20px 0;
   }
-
+  .container {
+    @media screen and (max-width: 960px) {
+      padding: 0 15px;
+    }
+  }
   .service-info {
     display: flex;
     flex-direction: column;

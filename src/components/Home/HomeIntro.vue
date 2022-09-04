@@ -152,6 +152,7 @@
   }
   @media screen and (max-width: 960px) {
     background-image: none;
+    padding-bottom: 100px;
   }
   &::after {
     content: '';
@@ -176,7 +177,11 @@
       display: none;
     }
   }
-  
+  .container {
+    @media screen and (max-width: 960px) {
+      padding: 0 15px;
+    }
+  }
   &-wrapper {
     display: flex;
     justify-content: center;

@@ -121,6 +121,11 @@ export default {};
   
   .about { 
     margin-top: 80px;
+    .container {
+    @media screen and (max-width: 960px) {
+      padding: 0 15px;
+    }
+  }
   .about-header {
     .about-img-wrapper {
       display: flex;
@@ -164,6 +169,9 @@ export default {};
        @media screen and (max-width:600px) {
           font-size: 28px;
           }
+       @media(max-width: 425px){
+          font-size: 20px;
+        }
         }
       }
     }
@@ -180,6 +188,9 @@ export default {};
         @media(max-width: 600px){
           line-height: 0;
           font-size: 30px;
+        }
+         @media(max-width: 425px){
+          font-size: 25px;
         }
       }
       &::after {

@@ -99,6 +99,9 @@ export default {
       font-size: 24px;
       line-height: 32px;
       color: #ffffff;
+       @media(max-width: 425px){
+          font-size: 18px;
+        }
     }
 
     &__icon {
@@ -118,7 +121,10 @@ export default {
   }
 
   .content-wrapper {
-    padding: 32px 15px;
+    padding: 32px 15px; 
+    @media(max-width: 425px){
+      padding: 0;
+    }
   }
 }
 </style>

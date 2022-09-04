@@ -99,6 +99,7 @@ export default {
 
 <style lang="scss" scoped>
 .type {
+
   &-cards-wrapper {
     width: 100%;
   }
@@ -119,7 +120,7 @@ export default {
 
     @media screen and (max-width:1264px)  {
       gap: 10px;
-      padding: 35px 50px 35px 50px;
+      padding: 35px 50px;
     }
   }
 

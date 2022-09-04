@@ -19,13 +19,13 @@ export default {};
 .sub-footer {
   padding: 20px 0;
   background: #ffffff;
+   @media screen and (max-width: 600px) {
+    }
   &-wrapper {
     display: flex;
     justify-content: space-between;
-   @media screen and (max-width: 960px) {
-      padding: 0 10px;
-    }
-     @media screen and (max-width: 700px) {
+  
+     @media screen and (max-width: 780px) {
      flex-direction: column;
      justify-content: start;
     }
@@ -34,10 +34,16 @@ export default {};
       font-size: 16px;
       line-height: 21px;
       color: #8a8a8a;
+      margin-bottom: 0;
       @media screen and (max-width: 960px) {
         font-size: 13px;
       }
-    }
-  }
+       @media screen and (max-width: 775px) {
+        &:not(:last-child) {
+          margin-bottom: 15px;
+          }
+        }
+      }
+   }
 }
 </style>
