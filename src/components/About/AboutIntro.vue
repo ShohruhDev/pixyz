@@ -247,7 +247,7 @@ export default {};
         }
         @media(max-width: 425px){
           background-size: 250px;
-          padding-top: 90px;
+          padding-top: 150px;
         }
       }
       .third {
@@ -279,7 +279,7 @@ export default {};
         }
         @media(max-width: 425px){
           background-size: 250px;
-          padding-top: 140px;
+          padding-top: 200px;
         }
       }
            .fiveth {
@@ -311,7 +311,7 @@ export default {};
         }
         @media(max-width: 425px){
           background-size: 250px;
-          padding-top: 160px;
+          padding-top: 180px;
         }
       }
       .seventh {

@@ -104,7 +104,7 @@
         }
         @media(max-width: 425px){
           background-size: 250px;
-          padding-top: 230px;
+          padding-top: 250px;
         }
       }
       .second {
@@ -121,7 +121,7 @@
         }
         @media(max-width: 425px){
           background-size: 250px;
-          padding-top: 120px;
+          padding-top: 150px;
         }
       }
       .third {
@@ -136,7 +136,7 @@
         }
         @media(max-width: 425px){
           background-size: 250px;
-          padding-top: 310px;
+          padding-top: 350px;
         }
       }
       .work-item {
