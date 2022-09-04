@@ -21,6 +21,9 @@ export default {};
   background: #ffffff;
    @media screen and (max-width: 600px) {
     }
+    .container{
+      padding: 0 10px;
+    }
   &-wrapper {
     display: flex;
     justify-content: space-between;
