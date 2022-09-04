@@ -90,6 +90,7 @@ export default {
     padding: 10px 0;
     height: 70px;
     cursor: pointer;
+     
 
     img {
       width: 100%;

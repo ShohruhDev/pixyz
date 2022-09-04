@@ -4,7 +4,6 @@
     class="sidebar"
     fixed
     right
-    overlay-color
     width="450px"
     dark
     @input="$emit('input', $event)"
@@ -57,7 +56,8 @@ export default {
 
 <style lang="scss" scoped>
 .sidebar {
-  
+  position: fixed;
+  z-index: 99999;
 }
 .menu{
   font-family: "Seg";
