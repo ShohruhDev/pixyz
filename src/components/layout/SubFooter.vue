@@ -21,13 +21,13 @@ export default {};
   background: #ffffff;
   &-wrapper {
     display: flex;
-    align-items: center;
     justify-content: space-between;
    @media screen and (max-width: 960px) {
       padding: 0 10px;
     }
      @media screen and (max-width: 700px) {
      flex-direction: column;
+     justify-content: start;
     }
     p {
       font-family: "Seg";

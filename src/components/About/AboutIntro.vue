@@ -231,12 +231,12 @@ export default {};
         }
         @media (max-width: 960px) {
           background-size: 300px;
-          padding-top: 200px;
+          padding-top: 210px;
           background-position: top center !important;
         }
         @media(max-width: 425px){
           background-size: 250px;
-          padding-top: 120px;
+          padding-top: 90px;
         }
       }
       .third {
@@ -246,12 +246,12 @@ export default {};
         }
         @media (max-width: 960px) {
           background-size: 300px;
-          padding-top: 400px;
+          padding-top: 390px;
           background-position: top center !important;
         }
         @media(max-width: 425px){
           background-size: 250px;
-          padding-top: 350px;
+          padding-top: 340px;
         }
       }
        .forth {
@@ -263,12 +263,12 @@ export default {};
         }
         @media (max-width: 960px) {
           background-size: 300px;
-          padding-top: 300px;
+          padding-top: 255px;
           background-position: top center !important;
         }
         @media(max-width: 425px){
           background-size: 250px;
-          padding-top: 200px;
+          padding-top: 140px;
         }
       }
            .fiveth {
@@ -278,12 +278,12 @@ export default {};
         }
         @media (max-width: 960px) {
           background-size: 300px;
-          padding-top: 300px;
+          padding-top: 260px;
           background-position: top center !important;
         }
         @media(max-width: 425px){
           background-size: 250px;
-          padding-top: 220px;
+          padding-top: 215px;
         }
       }
            .sixth {
@@ -295,12 +295,12 @@ export default {};
         }
         @media (max-width: 960px) {
           background-size: 300px;
-          padding-top: 300px;
+          padding-top: 260px;
           background-position: top center !important;
         }
         @media(max-width: 425px){
           background-size: 250px;
-          padding-top: 190px;
+          padding-top: 160px;
         }
       }
       .seventh {
@@ -317,7 +317,7 @@ export default {};
         }
         @media(max-width: 425px){
           background-size: 250px;
-          padding-top: 400px;
+          padding-top: 410px;
         }
       }
       .work-item {
