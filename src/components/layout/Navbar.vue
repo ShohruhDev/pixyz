@@ -101,7 +101,7 @@ export default {
   .menu-wrapper {
     display: flex;
     gap: 52px;
-     @media screen and (max-width:9992px)  {
+     @media screen and (max-width: 992px)  {
      gap: 40px;
     }
     @media screen and (max-width:960px)  {
@@ -112,16 +112,16 @@ export default {
     display: flex;
     align-items: center;
     font-weight: 200;
-    font-size: 15px;
+    font-size: 11px;
     color: #000000;
     text-align: center;
     text-decoration: none;
     position: relative;
        @media screen and (max-width:1264px)  {
-       font-size: 12px;
+       font-size: 10px;
     }
         @media screen and (max-width:992px)  {
-      font-size: 10px;
+      font-size: 9px;
     }
     &::before {
       display: block;

@@ -48,12 +48,15 @@
     z-index: 2;
   .container {
    background: url(@/assets/img/intro-img.png) no-repeat right top 220px;
-    padding-top: 180px;
+    padding-top: 250px;
     padding-bottom: 350px;
-      @media (max-width: 1500px){
+      @media (max-width: 1904px){
         background-size: 500px;
-        background-position-y: 160px;
-        padding-top: 250px;
+        background-position-y: 190px;
+    }
+      @media (max-width: 1500px){
+        background-size: 450px;
+        background-position-y: 190px;
     }
     @media(max-width: 960px){
       background-size: 350px;
@@ -99,7 +102,7 @@
         top: 0px;
         left: -60px;
       }
-      @media(max-width:1300px){
+      @media(max-width: 1050px){
         display: none;
       }
     }

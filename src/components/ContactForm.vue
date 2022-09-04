@@ -45,13 +45,10 @@
           </form>
           <div class="get-touch-contact">
             <div class="contact-infos">
-              <h6 class="title">Say Hi</h6>
+              <h6 class="title-form">Say Hi</h6>
               <a class="mail" href="#">info@pixyz.com</a>
               <a class="tel" href="#">+998 71 645 57 67</a>
               <a class="telegram" href="#">Telegram</a>
-            </div>
-            <div class="get-touch-img">
-              <img src="@/assets/img/get-touch.png" alt="" />
             </div>
           </div>
         </div>
@@ -73,8 +70,8 @@ export default {
 .contact-form {
   padding: 100px 0;
 .container {
-  width: 90%;
-}
+  width: 80%;
+  }
   &-wrapper {
     display: flex;
     flex-direction: column;
@@ -92,7 +89,7 @@ export default {
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 54px 57px 36px 66px;
+    padding: 40px 50px 35px 40px;
     gap: 26px;
 
     @media screen and (max-width: 960px) {
@@ -189,7 +186,7 @@ export default {
   .submit {
     font-family: "Seg";
     font-size: 16px;
-    padding: 16px 60px;
+    padding: 8px 60px;
     color: #ffffff;
     background: #49d6cb;
     border: 1px solid #49d6cb;
@@ -203,11 +200,10 @@ export default {
 
   .get-touch-contact {
     display: flex;
-    align-items: flex-start;
-    width: 480px;
-    background: #49d6cb;
+    width: 490px;
     position: relative;
-
+    background: url(@/assets/img/get-touch.png) no-repeat top 180px right 15px, #49D6CB;
+   
     @media screen and (max-width: 1264px) {
       display: none;
     }
@@ -219,6 +215,8 @@ export default {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
+
+      
 
       @media screen and (max-width: 1904px) {
       position: absolute;
@@ -232,8 +230,8 @@ export default {
       a {
         font-family: "Seg";
         text-decoration: none;
-        font-size: 16px;
-        line-height: 18px;
+        font-size: 20px;
+        line-height: 12px;
         color: #ffffff;
 
         &:not(:last-child) {
@@ -246,13 +244,12 @@ export default {
         }
       }
 
-      .title {
+      .title-form {
         font-family: "Seg-bold";
-        font-size: 32px;
-        line-height: 43px;
+        font-size: 35px;
         color: #ffffff;
-        margin-bottom: 45px;
-        transform: translateX(20%);
+        margin-bottom: 40px;
+        transform: translateY(-40%);
         @media screen and (max-width: 1904px) {
           position: absolute;
           bottom: 560px;
@@ -263,54 +260,30 @@ export default {
       }
 
       .mail {
-        transform: translateX(35%);
+        transform: translateX(20%);
 
         @media screen and (max-width: 1904px) {
-          bottom: 510px;
-          transform: translateX(0);
-          left: 70px;
+          bottom: 500px;
+          left: 20px;
         }
       }
 
       .tel {
-        transform: translateX(45%);
+        transform: translateX(20%);
         @media screen and (max-width: 1904px) {
-          bottom: 440px;
-          left: 60px;
+          bottom: 420px;
+          left: 40px;
           transform: translateX(0);
         }
       }
 
       .telegram {
-        transform: translateX(10%);
-        bottom: 350px;
-        @media screen and (max-width: 1904px) {
-          bottom: 350px;
+         transform: translateX(10%);
+         transform: translateY(100%);
+          @media screen and (max-width: 1904px) {
+          bottom: 340px;
           left: 70px;
         }
-        @media screen and (max-width: 1264px) {
-          bottom: 350px;
-          left: 70px;
-        }
-      }
-    }
-
-    .get-touch-img {
-      position: absolute;
-      width: 68%;
-      height: 75%;
-      top: 20%;
-      right: 5%;
-      @media screen and (max-width: 1904px) {
-        position: absolute;
-        width: 68%;
-      height: 75%;
-      top: 20%;
-      right: 5%;;
-      }
-      img {
-        width: 100%;
-        height: 100%;
       }
     }
   }

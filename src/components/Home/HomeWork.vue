@@ -101,7 +101,7 @@
         @media (max-width: 960px) {
           background-size: 300px;
           min-height: auto;
-          padding-top: 300px;
+          padding-top: 290px;
           background-position: top center !important;
         }
         @media(max-width: 425px){
@@ -118,7 +118,7 @@
         }
         @media (max-width: 960px) {
           background-size: 300px;
-          padding-top: 200px;
+          padding-top: 210px;
           background-position: top center !important;
         }
         @media(max-width: 425px){
@@ -133,7 +133,7 @@
         }
         @media (max-width: 960px) {
           background-size: 300px;
-          padding-top: 400px;
+          padding-top: 380px;
           background-position: top center !important;
         }
         @media(max-width: 425px){
@@ -277,6 +277,9 @@
     .btn-wrapper {
       text-align: center;
       margin-top: 140px;
+       @media (max-width:900px) {
+        margin-top: 100px;
+      }
       @media (max-width:600px) {
         margin-top: 80px;
       }

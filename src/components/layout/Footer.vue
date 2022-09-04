@@ -228,8 +228,6 @@
   &-wrapper {
     display: flex;
     flex-direction: column;
-    @media screen and (max-width: 1264px) {
-    }
     @media screen and (max-width: 600px) {
       align-items: center;
     }
