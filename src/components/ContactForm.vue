@@ -253,9 +253,10 @@ export default {
         color: #ffffff;
         margin-bottom: 40px;
         transform: translateY(-40%);
+        transform: translateX(-40%);
         @media screen and (max-width: 1904px) {
           position: absolute;
-          bottom: 560px;
+          bottom: 530px;
           left: 60px;
           transform: translate(0);
           margin-bottom: 0;
@@ -289,7 +290,7 @@ export default {
 
           @media screen and (max-width: 1904px) {
           bottom: 300px;
-          left: 70px;
+          left: 90px;
         }
       }
     }
