@@ -89,8 +89,10 @@ export default {
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 40px 50px 35px 40px;
-    gap: 26px;
+    padding: 40px 50px 1px 40px;
+    &:not(:last-child) {
+      gap: 25px;
+    }
 
     @media screen and (max-width: 960px) {
       padding: 30px;
@@ -165,6 +167,7 @@ export default {
     width: 100%;
     padding: 16px 25px;
     color: #c9c9c9;
+    height: 90%;
 
     &:focus {
       outline: none !important;
@@ -180,7 +183,7 @@ export default {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 10px;
+    padding-bottom: 20px;
   }
 
   .submit {
@@ -200,9 +203,9 @@ export default {
 
   .get-touch-contact {
     display: flex;
-    width: 490px;
+    width: 540px;
     position: relative;
-    background: url(@/assets/img/get-touch.png) no-repeat top 180px right 15px, #49D6CB;
+    background: url(@/assets/img/get-touch.png) no-repeat top 190px right 15px, #49D6CB;
    
     @media screen and (max-width: 1264px) {
       display: none;
@@ -230,7 +233,7 @@ export default {
       a {
         font-family: "Seg";
         text-decoration: none;
-        font-size: 20px;
+        font-size: 25px;
         line-height: 12px;
         color: #ffffff;
 
@@ -260,28 +263,32 @@ export default {
       }
 
       .mail {
-        transform: translateX(20%);
+        transform: translateY(20%);
+        transform: translateX(15%);
 
-        @media screen and (max-width: 1904px) {
-          bottom: 500px;
-          left: 20px;
+          @media screen and (max-width: 1904px) {
+            bottom: 460px;
+            left: 10px;
+          }
         }
-      }
 
       .tel {
-        transform: translateX(20%);
+        transform: translateY(20%);
+        transform: translateX(25%);
+
         @media screen and (max-width: 1904px) {
-          bottom: 420px;
-          left: 40px;
+          bottom: 380px;
+          left: 35px;
           transform: translateX(0);
         }
       }
 
       .telegram {
-         transform: translateX(10%);
-         transform: translateY(100%);
+        transform: translateY(100%);
+         transform: translateX(-40%);
+
           @media screen and (max-width: 1904px) {
-          bottom: 340px;
+          bottom: 300px;
           left: 70px;
         }
       }

@@ -113,16 +113,16 @@ export default {
     display: flex;
     align-items: center;
     font-weight: 200;
-    font-size: 11px;
+    font-size: 13px;
     color: #000000;
     text-align: center;
     text-decoration: none;
     position: relative;
        @media screen and (max-width:1264px)  {
-       font-size: 10px;
+       font-size: 12px;
     }
         @media screen and (max-width:992px)  {
-      font-size: 9px;
+      font-size: 11px;
     }
     &::before {
       display: block;

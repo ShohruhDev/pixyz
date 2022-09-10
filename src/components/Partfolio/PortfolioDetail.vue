@@ -31,6 +31,8 @@ export default {
     width: 100%;
     height: 435px;
     cursor: pointer;
+    overflow: hidden;
+ 
 
     &::after {
       content: "";
@@ -59,8 +61,13 @@ export default {
       width: 100%;
       height: 100%;
       object-fit: cover;
+      transition: .5s;
+      &:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
     }
   }
+
 
   .detail-title {
     font-family: "Arial";

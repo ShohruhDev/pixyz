@@ -255,7 +255,7 @@
           height: 176px;
           background: url(@/assets/img/arrow-down-3.png) no-repeat;
           bottom: -120px;
-          right: -50px;
+          right: -10px;
           @media (max-width:1904px) {
             background-size: 80%;
             right: -145px;

@@ -36,11 +36,9 @@
             <a class="link" href="mailto:Info@pixyz.uz">Info@pixyz.uz</a>
           </div>
         </div>
-        <div class="getin-touch">
-          <ContactForm/>
-        </div>
       </div>
     </div>
+          <ContactForm/>
     <div class="contact-maps">
       <iframe
      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97633.56369407855!2d67.7843542435066!3d40.11891448112796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b29442f6b6d4d9%3A0x9278c40ee88910e2!2z0JTQttC40LfQsNC6LCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e0!3m2!1sru!2s!4v1661409223334!5m2!1sru!2s"

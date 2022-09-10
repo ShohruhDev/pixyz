@@ -182,7 +182,7 @@
                 </div>
               </div>
               <div class="footer-contact__card">
-                <div class="footer-contact__icon">
+                <div class="footer-contact__icon adress">
                   <svg
                     width="21"
                     height="29"
@@ -338,6 +338,9 @@
           padding: 0;
       }
     
+    }
+    .adress {
+     padding-left: 10px;
     }
     &__span {
       display: flex;
