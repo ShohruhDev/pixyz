@@ -9,7 +9,9 @@
          <div class="work">
     <div class="container">
       <div class="title">
+        <router-link to="/aboutus">
         <h2>About Pixyz Agency</h2>
+        </router-link>
       </div>
       <div class="work-items">
         <div class="work-item first">

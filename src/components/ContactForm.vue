@@ -233,7 +233,7 @@ export default {
       a {
         font-family: "Seg";
         text-decoration: none;
-        font-size: 25px;
+        font-size: 22px;
         line-height: 12px;
         color: #ffffff;
 
@@ -265,7 +265,7 @@ export default {
 
       .mail {
         transform: translateY(20%);
-        transform: translateX(15%);
+        transform: translateX(20%);
 
           @media screen and (max-width: 1904px) {
             bottom: 460px;
@@ -286,7 +286,7 @@ export default {
 
       .telegram {
         transform: translateY(100%);
-         transform: translateX(-40%);
+         transform: translateX(-50%);
 
           @media screen and (max-width: 1904px) {
           bottom: 300px;

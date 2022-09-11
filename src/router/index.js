@@ -5,6 +5,7 @@ import Contact from '../views/Contact.vue'
 import Portfolio from '../views/Portfolio.vue'
 import Service from '../views/Service.vue'
 import About from '../views/About.vue'
+import AboutUs from '../views/AboutUs.vue'
 
 Vue.use(VueRouter)
 
@@ -28,7 +29,12 @@ const routes = [{ path: '/', redirect: '/home' },
     {
         path: '/about',
         name: 'about',
-        component: About
+        component: About,
+
+    },
+    {
+        path: '/aboutus',
+        component: AboutUs,
     },
 ]
 
