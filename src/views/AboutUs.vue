@@ -158,6 +158,7 @@
     font-size: 40px;
     color: #217a73;
     text-align: center;
+    margin-bottom: 30px;
     @media screen and (max-width: 1904px) {
       font-size: 35px;
     }
