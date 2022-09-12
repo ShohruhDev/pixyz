@@ -278,13 +278,13 @@
       }
     }
     &-icons {
-      margin-right: 15px;
       @media screen and (max-width: 600px) {
         display: flex;
         justify-content: center;
       }
       svg {
-        margin-right: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
       }
     }
   }
