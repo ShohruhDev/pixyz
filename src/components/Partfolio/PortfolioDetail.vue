@@ -31,7 +31,14 @@ export default {
     width: 100%;
     height: 435px;
     cursor: pointer;
+    display: inline-block;
     overflow: hidden;
+
+      &:hover {
+        img {
+          transform: scale(1.2);
+        }
+      }
  
 
     &::after {
@@ -42,8 +49,11 @@ export default {
       left: 0;
       bottom: 0;
       background: #000;
-      opacity: 0;
+      opacity: 0.2;
       z-index: 1;
+    }
+    .detail-title {
+      opacity: 1;
     }
 
     &:hover {
@@ -52,19 +62,19 @@ export default {
         transition: all 0.3s;
       }
 
-      .detail-title {
-        opacity: 1;
-      }
     }
 
     img {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      transition: .5s;
+      // transition: .5s;
+      transition: 1s;
+      display: block;
+
       &:hover {
-    transform: scale(1.2); /* Увеличиваем масштаб */
-   }
+        transform: scale(1.5);
+      }
     }
   }
 
