@@ -205,7 +205,7 @@ export default {
     display: flex;
     width: 540px;
     position: relative;
-    background: url(@/assets/img/get-touch.png) no-repeat top 190px right 15px, #49D6CB;
+    background: url(@/assets/img/get-touch.png) no-repeat top 190px right 30px, #49D6CB;
    
     @media screen and (max-width: 1264px) {
       display: none;
@@ -253,11 +253,11 @@ export default {
         color: #ffffff;
         margin-bottom: 40px;
         transform: translateY(-40%);
-        transform: translateX(-40%);
+        transform: translateX(-30%);
         @media screen and (max-width: 1904px) {
           position: absolute;
           bottom: 530px;
-          left: 60px;
+          left: 30px;
           transform: translate(0);
           margin-bottom: 0;
         }
@@ -265,7 +265,7 @@ export default {
 
       .mail {
         transform: translateY(20%);
-        transform: translateX(20%);
+        transform: translateX(15%);
 
           @media screen and (max-width: 1904px) {
             bottom: 460px;
@@ -275,11 +275,11 @@ export default {
 
       .tel {
         transform: translateY(20%);
-        transform: translateX(25%);
+        transform: translateX(27%);
 
         @media screen and (max-width: 1904px) {
           bottom: 380px;
-          left: 35px;
+          left: 30px;
           transform: translateX(0);
         }
       }
@@ -290,7 +290,7 @@ export default {
 
           @media screen and (max-width: 1904px) {
           bottom: 300px;
-          left: 90px;
+          left: 80px;
         }
       }
     }
