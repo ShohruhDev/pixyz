@@ -42,6 +42,8 @@
     background: url(@/assets/img/bg-intro.png) no-repeat center/cover;
     position: relative;
     z-index: 2;
+    background-position-x: 0;
+    background-position-y: 0px;
   
 .home-intro{
     position: relative;
@@ -221,7 +223,6 @@
     font-size: 20px;
     line-height: 32px;
     color: #8a8a8a;
-    text-align: center;
     @media screen and (max-width: 1904px) {
       font-size: 16px;
       line-height: 30px;
