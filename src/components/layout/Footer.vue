@@ -234,7 +234,7 @@
   &-wrapper {
     display: flex;
     flex-direction: column;
-    padding-top: 105px;
+    padding-top: 25px;
     @media screen and (max-width: 600px) {
       align-items: center;
     }
