@@ -70,7 +70,6 @@ export default {
   &-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 0 15px;
   
     @media screen and (max-width:960px)  {
       flex-direction: row-reverse;
@@ -101,7 +100,8 @@ export default {
 
   .menu-wrapper {
     display: flex;
-    gap: 52px;
+    gap: 38px;
+    padding-top: 10px;
      @media screen and (max-width: 992px)  {
      gap: 40px;
     }
@@ -112,8 +112,9 @@ export default {
   .menu {
     display: flex;
     align-items: center;
-    font-weight: 200;
-    font-size: 13px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
     color: #000000;
     text-align: center;
     text-decoration: none;

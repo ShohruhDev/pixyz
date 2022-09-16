@@ -129,7 +129,7 @@
             </div>
           </div>
           <div class="footer-pages">
-            <h5 class="footer__title">Important Links</h5>
+            <h5 class="footer__title">Featured Services</h5>
             <div class="footer-pages__links">
               <router-link to="/service">IT Managment</router-link>
               <router-link to="/service">Development</router-link>
@@ -200,7 +200,6 @@
                   <span>Adress</span>
                   <a href="#">
                     Tashkent city, Uzbekistan,
-                    <br />
                     100369
                   </a>
                 </div>
@@ -214,8 +213,12 @@
 </template>
 
 <style lang="scss" scoped>
+  p{
+    margin: 0;
+    padding: 0;
+  }
 .footer {
-  padding: 44px 0 114px 0;
+  padding: 20px 0 75px 0;
   background: #f4f6fc;
   position: relative;
   z-index: 1111;
@@ -231,12 +234,13 @@
   &-wrapper {
     display: flex;
     flex-direction: column;
+    padding-top: 105px;
     @media screen and (max-width: 600px) {
       align-items: center;
     }
   }
   &-logo {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     @media screen and (max-width: 600px) {
       display: flex;
       justify-content: center;
@@ -245,6 +249,7 @@
   }
   &-cards {
     display: grid;
+    margin-right: -50px;
     grid-template-columns: repeat(4, 1fr);
     @media screen and (max-width: 1264px) {
       display: grid;
@@ -270,11 +275,12 @@
       font-weight: 400;
       font-size: 16px;
       line-height: 21px;
-      max-width: 250px;
+      max-width: 200px;
       color: #8a8a8a;
       @media screen and (max-width: 600px) {
         text-align: center;
         justify-content: center;
+        max-width: 235px;
       }
     }
     &-icons {
@@ -283,8 +289,9 @@
         justify-content: center;
       }
       svg {
-        margin-right: 5px;
         margin-left: 5px;
+        margin-right: 2px;
+        margin-top: -5px;
       }
     }
   }
@@ -327,20 +334,22 @@
     &__card {
       display: flex;
       align-items: center;
-      padding-bottom: 30px;
+      padding-bottom: 10px;
       @media screen and (max-width: 600px) {
        flex-direction: column;
       }
     }
     &__icon {
-      padding-right: 10px;
+      padding-right: 30px;
+      padding-left: -10px;
         @media screen and (max-width: 600px) {
           padding: 0;
       }
     
     }
     .adress {
-     padding-left: 10px;
+     padding-left: 12px;
+     padding-bottom: 25px;
     }
     &__span {
       display: flex;
@@ -350,7 +359,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 21px;
+        line-height: 18px;
         color: #000000;
         padding-bottom: 8px;
         @media screen and (max-width: 600px) {

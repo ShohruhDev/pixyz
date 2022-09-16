@@ -4,7 +4,7 @@
       <div class="contact-form-wrapper">
         <div class="main-wrapper">
           <form class="get-touch-body">
-            <h5 class="get-touch-title">Get in Touch</h5>
+            <h5 class="get-touch-title">Get ln Touch</h5>
             <div class="input-wrapper">
               <input type="text" placeholder="Name" hide-details />
               <input type="text" placeholder="Last Name" hide-details />
@@ -35,7 +35,7 @@
               <textarea
                 class="area"
                 cols="90"
-                rows="10"
+                rows="6"
                 placeholder="About your Project"
               ></textarea>
             </div>
@@ -45,7 +45,7 @@
           </form>
           <div class="get-touch-contact">
             <div class="contact-infos">
-              <h6 class="title-form">Say Hi</h6>
+              <h6 class="title-form">Say Hi!</h6>
               <a class="mail" href="#">info@pixyz.com</a>
               <a class="tel" href="#">+998 71 645 57 67</a>
               <a class="telegram" href="#">Telegram</a>
@@ -68,9 +68,10 @@ export default {
 
 <style lang="scss" scoped>
 .contact-form {
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 30px;
 .container {
-  width: 80%;
+  width: 73%;
   }
   &-wrapper {
     display: flex;
@@ -89,7 +90,7 @@ export default {
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 40px 50px 1px 40px;
+    padding: 70px 50px 10px 75px;
     &:not(:last-child) {
       gap: 25px;
     }
@@ -101,9 +102,12 @@ export default {
 
   .get-touch-title {
     font-family: "Seg-bold";
-    font-size: 40px;
     color: #217a73;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
     text-align: start;
+    margin-top: -15px;
 
     @media screen and (max-width: 1264px) {
       font-size: 29px;
@@ -113,7 +117,7 @@ export default {
   .input-wrapper {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 25px;
 
     @media screen and (max-width: 1264px) {
       flex-direction: column;
@@ -133,16 +137,18 @@ export default {
       border: 1px solid #49d6cb;
       width: 100%;
       color: #c9c9c9;
-       padding: 8px 0;
-     
+       padding: 0px 0;
+       @media screen and (max-width: 1264px) {
+        width: 90%;
+      }
     }
 
     input {
       font-family: "Arial";
       font-size: 16px;
-      padding: 18px 40px 20px 28px;
+      padding: 15px 45px 15px 28px;
       border: 1px solid #49d6cb;
-      width: 100%;
+      width: 90%;
 
       @media screen and (max-width: 1264px) {
         font-size: 15px;
@@ -164,10 +170,13 @@ export default {
     font-family: "Arial";
     font-size: 16px;
     border: 1px solid #49d6cb;
-    width: 100%;
-    padding: 16px 25px;
+    width: 99%;
+    padding: 5px 25px;
     color: #c9c9c9;
-    height: 90%;
+      @media screen and (max-width: 1264px) {
+       width: 90%;
+       margin-left: 37px;
+      }
 
     &:focus {
       outline: none !important;
@@ -183,7 +192,8 @@ export default {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    padding-top: 18px;
   }
 
   .submit {
@@ -203,9 +213,9 @@ export default {
 
   .get-touch-contact {
     display: flex;
-    width: 540px;
+    width: 510px;
     position: relative;
-    background: url(@/assets/img/get-touch.png) no-repeat top 190px right 30px, #49D6CB;
+    background: url(@/assets/img/get-touch.png) no-repeat top 115px right 26px, #49D6CB;
    
     @media screen and (max-width: 1264px) {
       display: none;
@@ -213,7 +223,7 @@ export default {
 
     .contact-infos {
       position: absolute;
-      top: 15%;
+      top: 8%;
       left: 0;
       display: flex;
       flex-direction: column;
@@ -233,8 +243,9 @@ export default {
       a {
         font-family: "Seg";
         text-decoration: none;
-        font-size: 22px;
-        line-height: 12px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
         color: #ffffff;
 
         &:not(:last-child) {
@@ -249,48 +260,50 @@ export default {
 
       .title-form {
         font-family: "Seg-bold";
-        font-size: 35px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 43px;
         color: #ffffff;
         margin-bottom: 40px;
         transform: translateY(-40%);
-        transform: translateX(-30%);
+        transform: translateX(47%);
         @media screen and (max-width: 1904px) {
           position: absolute;
-          bottom: 530px;
-          left: 30px;
+          bottom: 480px;
+          left: 70px;
           transform: translate(0);
           margin-bottom: 0;
         }
       }
 
       .mail {
-        transform: translateY(20%);
-        transform: translateX(15%);
+        transform: translateY(10%);
+        transform: translateX(50%);
 
           @media screen and (max-width: 1904px) {
-            bottom: 460px;
+            bottom: 430px;
             left: 10px;
           }
         }
 
       .tel {
-        transform: translateY(20%);
-        transform: translateX(27%);
+        transform: translateY(30%);
+        transform: translateX(58%);
 
         @media screen and (max-width: 1904px) {
-          bottom: 380px;
-          left: 30px;
+          bottom: 350px;
+          left: 65px;
           transform: translateX(0);
         }
       }
 
       .telegram {
         transform: translateY(100%);
-         transform: translateX(-50%);
+         transform: translateX(15%);
 
           @media screen and (max-width: 1904px) {
-          bottom: 300px;
-          left: 80px;
+          bottom: 270px;
+          left: 70px;
         }
       }
     }

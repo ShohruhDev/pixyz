@@ -5,9 +5,9 @@
         <div class="techno-title">
           <h5>Specialties and Technologies</h5>
           <p>
-            Our stratigists, designers, architectecs, developers and quality
-            analysts excel in every technology powering native, hybrid, cross-
-            platform and custom software development.
+            Our stratigists, designers, architectecs, developers and quality analysts
+            excel in every technology powering native, hybrid, cross- platform and custom
+            software development.
           </p>
           <div class="round-img-wrapper">
             <img src="@/assets/img/round.png" alt="" />
@@ -61,17 +61,17 @@ export default {
 .home-techno {
   padding: 100px 0;
 
-   @media screen and (max-width:1904px) {
+  @media screen and (max-width: 1904px) {
     padding: 80px 0;
   }
 
-  @media screen and (max-width:1264px){
+  @media screen and (max-width: 1264px) {
     padding: 60px 0;
   }
-   @media screen and (max-width:425px){
+  @media screen and (max-width: 425px) {
     padding: 30px 0;
   }
-   .container {
+  .container {
     @media screen and (max-width: 960px) {
       padding: 0 15px;
     }
@@ -80,15 +80,18 @@ export default {
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 28px;
+    gap: 45px;
     margin-bottom: 56px;
 
-    @media screen and (max-width:1904px) {
+    @media screen and (max-width: 1904px) {
       gap: 15px;
       margin-bottom: 40px;
+      text-align: center;
     }
 
-    @media screen and (max-width:960px) {
+    @media screen and (max-width: 1264px) {
+    }
+    @media screen and (max-width: 960px) {
       padding: 0 15px;
     }
 
@@ -97,20 +100,21 @@ export default {
       font-size: 40px;
       color: #217a73;
       text-align: center;
+      padding-right: 70px;
 
-      @media screen and (max-width:1904px) {
+      @media screen and (max-width: 1904px) {
         font-size: 35px;
       }
 
-       @media screen and (max-width:1264px) {
+      @media screen and (max-width: 1264px) {
         font-size: 30px;
       }
 
-       @media screen and (max-width:961px) {
+      @media screen and (max-width: 961px) {
         font-size: 25px;
       }
 
-       @media screen and (max-width:600px) {
+      @media screen and (max-width: 600px) {
         font-size: 20px;
       }
     }
@@ -119,13 +123,11 @@ export default {
       font-family: "Seg";
       font-size: 24px;
       color: #8a8a8a;
-      text-align: center;
 
-       @media screen and (max-width:1904px) {
+      @media screen and (max-width: 1904px) {
         font-size: 20px;
       }
-       @media screen and (max-width:1264px) {
-        font-size: 15px;
+      @media screen and (max-width: 1264px) {
       }
     }
 
@@ -136,7 +138,7 @@ export default {
       transform: translate(-15%);
       z-index: -1;
 
-      @media screen and (max-width:960px) {
+      @media screen and (max-width: 960px) {
         display: none;
       }
     }
@@ -146,24 +148,25 @@ export default {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     gap: 35.5px;
+    margin-top: -18px;
 
-    @media screen and (max-width:1904px) {
+    @media screen and (max-width: 1904px) {
       grid-template-columns: repeat(8, 1fr);
     }
 
-     @media screen and (max-width:1264px) {
+    @media screen and (max-width: 1264px) {
       grid-template-columns: repeat(6, 1fr);
     }
 
-     @media screen and (max-width:960px) {
+    @media screen and (max-width: 960px) {
       grid-template-columns: repeat(4, 1fr);
     }
 
-     @media screen and (max-width:600px) {
+    @media screen and (max-width: 600px) {
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
     }
-    @media screen and (max-width:370px) {
+    @media screen and (max-width: 370px) {
       grid-template-columns: repeat(2, 1fr);
       gap: 20px;
     }

@@ -260,9 +260,8 @@ export default {
 
 <style lang="scss" scoped>
 .home-service {
-  padding: 40px 0;
+  padding: 60px 0;
   background: #f4f6fc;
-  margin-top: -8px;
   position: relative;
 
   @media screen and (max-width: 1264px) {
@@ -276,7 +275,7 @@ export default {
   .service-info {
     display: flex;
     flex-direction: column;
-    margin-bottom: 81px;
+    margin-bottom: 80px;
 
     @media screen and (max-width: 1904px) {
       margin-bottom: 50px;
@@ -285,7 +284,10 @@ export default {
 
   .service-title {
     font-family: "Seg-bold";
+    font-weight: 700;
     font-size: 40px;
+    line-height: 60px;
+    padding-right: 35px;
     color: #217a73;
     text-align: center;
     margin-bottom: 28px;
@@ -309,6 +311,10 @@ export default {
     font-size: 24px;
     color: #7d7d7d;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 78%;
 
     @media screen and (max-width: 1904px) {
       font-size: 20px;
@@ -324,7 +330,7 @@ export default {
     position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 44px;
+    gap: 40px;
 
     @media screen and (max-width: 1904px) {
       gap: 25px;
@@ -353,7 +359,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 53px 62px 52px 62px;
+    padding: 45px 62px 52px 62px;
     background: #ffffff;
     filter: drop-shadow(3px 3px 40px rgba(126, 126, 126, 0.102));
     border-radius: 10px;
@@ -361,39 +367,39 @@ export default {
     transition: all 0.3s;
     z-index: 1;
 
-    &:hover {
-      background: #49d6cb;
-      transform: translate(10px, -10px);
-      box-shadow: -10px 10px 10px rgba($color: #000000, $alpha: 0.1);
-       @media screen and (max-width: 960px) {
-         transform: translate(0px, 0px);
-         box-shadow: none;
+    // &:hover {
+    //   background: #49d6cb;
+    //   transform: translate(10px, -10px);
+    //   box-shadow: -10px 10px 10px rgba($color: #000000, $alpha: 0.1);
+    //    @media screen and (max-width: 960px) {
+    //      transform: translate(0px, 0px);
+    //      box-shadow: none;
       
-    }
+    // }
 
-      .development-icon {
-        background: #ffffff;
+    //   .development-icon {
+    //     background: #ffffff;
 
-        svg path {
-          fill: #49d6cb;
-        }
-      }
+    //     svg path {
+    //       fill: #49d6cb;
+    //     }
+    //   }
 
-      .development-title {
-        color: #ffffff;
-      }
+    //   .development-title {
+    //     color: #ffffff;
+    //   }
 
-      .development-text {
-        color: #ffffff;
-      @media screen and (max-width: 770px) {
-    }
-      }
+    //   .development-text {
+    //     color: #ffffff;
+    //   @media screen and (max-width: 770px) {
+    // }
+    //   }
 
-      .development-btn {
-        color: #ffffff;
-        text-decoration: none;
-      }
-    }
+    //   .development-btn {
+    //     color: #ffffff;
+    //     text-decoration: none;
+    //   }
+    // }
 
     @media screen and (max-width: 1904px) {
       padding: 45px 50px 44px 50px;
@@ -407,10 +413,10 @@ export default {
       justify-content: center;
       width: 91px;
       height: 91px;
-      padding: 22px 19px;
+      padding: 24px 15px;
       border-radius: 50%;
       background: #49d6cb;
-      margin-bottom: 27px;
+      margin-bottom: 15px;
 
       @media screen and (max-width: 1904px) {
         margin-bottom: 20px;
@@ -428,6 +434,7 @@ export default {
         font-weight: 300;
         font-size: 24px;
         color: #000;
+        padding-top: 5px;
         text-align: center;
       }
 
@@ -447,6 +454,7 @@ export default {
     border: none;
     color: #49d6cb;
     text-decoration: none;
+    margin-top: -16px;
   }
 
   .back-img {
@@ -477,7 +485,7 @@ export default {
     border: none;
     background: #49d6cb;
     transition: all 0.3s;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, 65%);
     animation: pulse 1s infinite;
     cursor: pointer;
     z-index: 2;

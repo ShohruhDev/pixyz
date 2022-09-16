@@ -49,7 +49,7 @@
     position: relative;
     z-index: 2;
   .container {
-   background: url(@/assets/img/intro-img.png) no-repeat right top 220px;
+   background: url(@/assets/img/intro-img.png) no-repeat right 10px top 260px;
     padding-top: 250px;
     padding-bottom: 350px;
       @media (max-width: 1904px){
@@ -84,6 +84,7 @@
     position: relative;
     font-weight: 700;
     z-index: 9999;
+    padding-top: 74px;
       @media (max-width: 1500px){
         font-size: 40px;
       }
@@ -98,8 +99,8 @@
     &::before {
       content: url(@/assets/img/title-img.png);
       position: absolute;
-      left: -80px;
-      top: 45px;
+      left: -70px;
+      top: 125px;
       @media(max-width:1500px){
         top: 0px;
         left: -60px;
@@ -111,8 +112,8 @@
     &::after {
     content: '';
     position: absolute;
-    top: -70px;
-    left: 200px;
+    top: -1px;
+    left: 180px;
     z-index: -1;
     background: url(@/assets/img/title-round.png) no-repeat center/cover;
     width: 232px;
@@ -127,7 +128,6 @@
    }
    p {
     font-size: 24px;
-    margin-top: 22px;
     font-weight: 300;
       @media (max-width: 1500px){
         font-size: 20px;
@@ -147,6 +147,7 @@
   .home-text {
   position: relative;
   padding-bottom: 300px;
+  padding-top: 130px;
    @media screen and (max-width: 1904px) {
   }
    @media screen and (max-width: 1264px) {
@@ -162,10 +163,10 @@
     background-image: url(@/assets/img/arrow.png);
     background-size: cover;
     background-position: center;
-    bottom: -80px; 
+    bottom: -88px; 
     width: 462px;
     height: 445px;
-    left: 50%;
+    left: 49%;
     transform: translateX(-25%);
     z-index: 2;
      @media screen and (max-width: 1264px) {
@@ -194,7 +195,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 31px;
+    gap: 25px;
     @media screen and (max-width: 1904px) {
       gap: 15px;
     }
@@ -209,23 +210,31 @@
   &-title {
     font-family: 'Seg-bold';
     font-size: 40px;
+    font-weight: 700;
+    padding-right: 50px;
+    line-height: 58px;
     color: #217a73;
     text-align: center;
     @media screen and (max-width: 1904px) {
       font-size: 35px;
     }
     @media screen and (max-width: 960px) {
+      text-align: center;
       font-size: 30px;
+      padding: 0;
     }
   }
   &-descripton {
     font-family: 'Seg';
-    font-size: 20px;
-    line-height: 32px;
+    font-weight: 400;
+    font-size: 24px;
+    
+    line-height: 40px;
     color: #8a8a8a;
     @media screen and (max-width: 1904px) {
       font-size: 16px;
       line-height: 30px;
+      text-align: center;
     }
     @media screen and (max-width: 960px) {
       font-size: 13px;

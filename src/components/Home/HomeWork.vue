@@ -9,10 +9,7 @@
           <div class="work-item-info">
             <h3>First discussion</h3>
             <p>
-              The goal was to define the goals for implementing the software. Tasks can be
-              complex, and business logic is often quite complex. At this stage, it is
-              important that these complex tasks can be broken down into more manageable
-              tasks and, therefore, they are easier to implement, verify and test.
+               The first step is to give an overview of the problem we want to solve and / or our needs. If the needs are not properly understood, this will cause the creation of a web application that is designed for these purposes to fail.
             </p>
           </div>
         </div>
@@ -20,11 +17,7 @@
           <div class="work-item-info right">
             <h3>Requirements analysis</h3>
             <p>
-              The goal was to define the goals for implementing the web application. Tasks
-              can be complex, and business logic is often quite complex. At this stage, it
-              is important that these complex tasks can be broken down into more
-              manageable tasks and, therefore, they are easier to implement, verify, and
-              test.
+              The goal was to define the goals for implementing the web application. Tasks can be complex, and business logic is often quite complex. At this stage, it is important that these complex tasks can be broken down into more manageable tasks and, therefore, they are easier to implement, verify, and test.
             </p>
           </div>
         </div>
@@ -56,7 +49,7 @@
     }
   }
     .title{
-      padding-top: 84px;
+      padding-top: 120px;
       text-align: center;
       position: relative;
       h2{
@@ -72,11 +65,11 @@
       &::after {
         content: "";
         position: absolute;
-        top: 140px;
-        left: 52%;
+        top: 180px;
+        left: 51%;
         margin-left: -114px;
         background: url(@/assets/img/work-arrow.png) no-repeat center/cover;
-        width: 288px;
+        width: 298px;
         height: 172px;
         @media (max-width: 1500px) {
           top: 130px;
@@ -91,7 +84,7 @@
     &-items {
       margin-top: 100px;
       .first {
-        background: url(@/assets/img/work-image.png) no-repeat left 100px center;
+        background: url(@/assets/img/work-image.png) no-repeat left 130px center;
         @media (max-width: 1904px) {
           min-height: 400px;
           background-size: 35%;
@@ -109,7 +102,7 @@
       }
       .second {
         background-image: url(@/assets/img/work-image-2.png);
-        background-position: right 100px center;
+        background-position: right 50px  center;
         @media (max-width: 1904px) {
           min-height: 400px;
           background-size: 35%;
@@ -125,7 +118,7 @@
         }
       }
       .third {
-        background: url(@/assets/img/work-image-3.png) no-repeat left 100px center;
+        background: url(@/assets/img/work-image-3.png) no-repeat left 110px center ;
         @media (max-width: 1904px) {
           background-size: 35%;
         }
@@ -158,7 +151,7 @@
         }
 
         &-info {
-          margin-left: 50%;
+          margin-left: 47.9%;
             @media (max-width: 960px) {
               padding-top: 10px;
               text-align: center;
@@ -170,10 +163,10 @@
             }
           h3 {
             font-weight: 700;
-            font-size: 32px;
-            line-height: 43px;
+            font-size: 30px;
+            line-height: 100px;
             color: #217a73;
-            margin-bottom: 35px;
+            margin-top:20px;
             @media(max-width:600px){
               font-size: 24px;
               line-height: 32px;
@@ -214,7 +207,7 @@
           height: 350px;
           background: url(@/assets/img/arrow-down.png) no-repeat center/cover;
           bottom: -240px;
-          right: 40px;
+          right: 80px;
           @media (max-width: 1904px) {
             right: -10px;
             bottom: -260px;
@@ -234,8 +227,8 @@
           width: 601px;
           height: 302px;
           background: url(@/assets/img/arrow-down-2.png) no-repeat center/cover;
-          bottom: -195px;
-          right: 100px;
+          bottom: -240px;
+          right: 140px;
           @media (max-width:1904px) {
             right: 0;
             bottom: -180px;
@@ -255,7 +248,7 @@
           height: 176px;
           background: url(@/assets/img/arrow-down-3.png) no-repeat;
           bottom: -120px;
-          right: -10px;
+          right: -40px;
           @media (max-width:1904px) {
             background-size: 80%;
             right: -145px;
@@ -274,7 +267,7 @@
     }
     .btn-wrapper {
       text-align: center;
-      margin-top: 140px;
+      margin-top: 135px;
        @media (max-width:900px) {
         margin-top: 50px;
       }
@@ -284,7 +277,7 @@
       .step {
         font-family: "Arial";
         font-size: 16px;
-        padding: 10px 52px;
+        padding: 15px 52px;
         color: #ffffff;
         background: #49d6cb;
         border: 1px solid #49d6cb;
