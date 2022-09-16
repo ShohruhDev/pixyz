@@ -68,7 +68,6 @@ export default {
 
 <style lang="scss" scoped>
 .contact-form {
-  padding-top: 100px;
   padding-bottom: 110px;
 .container {
   width: 73%;

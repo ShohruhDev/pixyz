@@ -198,7 +198,7 @@ export default {};
       &::after {
         content: "";
         position: absolute;
-        top: 140px;
+        top: 108px;
         left: 52%;
         margin-left: -114px;
         background: url(@/assets/img/work-arrow.png) no-repeat center/cover;
@@ -206,7 +206,7 @@ export default {};
         height: 172px;
 
        
-        @media (max-width: 1500px) {
+        @media (max-width: 1264px) {
           top: 120px;
           width: 250px;
           height: 150px;
@@ -219,11 +219,15 @@ export default {};
     &-items {
       margin-top: 100px;
       .first {
-        background: url(@/assets/img/work-image.png) no-repeat left 100px center;
+        padding-bottom: 46px;
+        background: url(@/assets/img/work-image.png) no-repeat;
+         background-position-x: 140px;
+        background-position-y:  -30px;
         @media (max-width: 1904px) {
           min-height: 400px;
           background-size: 35%;
         }
+       
         @media (max-width: 960px) {
           background-size: 300px;
           min-height: auto;
@@ -236,11 +240,17 @@ export default {};
         }
       }
       .second {
+        padding-bottom: 110px;
         background-image: url(@/assets/img/work-image-2.png);
-        background-position: right 100px center;
+        background-position-x: 840px;
+        background-position-y: 18px;
         @media (max-width: 1904px) {
           min-height: 400px;
           background-size: 35%;
+          background-position-x: 640px;   
+        }
+           @media (max-width: 1500px) {
+             background-position-x: 500px;
         }
         @media (max-width: 960px) {
           background-size: 300px;
@@ -253,9 +263,15 @@ export default {};
         }
       }
       .third {
-        background: url(@/assets/img/work-image-3.png) no-repeat left 100px center;
+        padding-bottom: 80px;
+        background: url(@/assets/img/work-image-3.png) no-repeat ;
+        background-position-x: 134px;
+        background-position-y: -40px;
         @media (max-width: 1904px) {
           background-size: 35%;
+        }
+           @media (max-width: 1500px) {
+            background-position-x: 100px;
         }
         @media (max-width: 960px) {
           background-size: 300px;
@@ -268,11 +284,17 @@ export default {};
         }
       }
        .forth {
+        padding-top: 110px;
         background-image: url(@/assets/img/about-img.png);
-        background-position: right 100px center;
+        background-position-x: 890px;
+        background-position-y: 80px;
         @media (max-width: 1904px) {
+          background-position-x: 590px;
           min-height: 400px;
           background-size: 35%;
+        }
+           @media (max-width: 1500px) {
+            background-position-x: 490px;
         }
         @media (max-width: 960px) {
           background-size: 300px;
@@ -285,9 +307,14 @@ export default {};
         }
       }
            .fiveth {
-        background: url(@/assets/img/about-img-1.png) no-repeat left 100px center;
+        padding-top: 32px;
+        background: url(@/assets/img/about-img-1.png) no-repeat;
+        background-position-x: 42px;
+        background-position-y: 53px;
         @media (max-width: 1904px) {
           background-size: 35%;
+        }
+           @media (max-width: 1264px) {
         }
         @media (max-width: 960px) {
           background-size: 300px;
@@ -299,12 +326,18 @@ export default {};
           padding-top: 215px;
         }
       }
-           .sixth {
+        .sixth {
+        padding-top: 60px;
         background-image: url(@/assets/img/about-img-2.png);
-        background-position: right 100px center;
+        background-position-x: 760px;
+        background-position-y: 44px;
         @media (max-width: 1904px) {
+          background-position-x: 650px;
           min-height: 400px;
           background-size: 35%;
+        }
+           @media (max-width: 1500px) {
+            background-position-x: 500px;
         }
         @media (max-width: 960px) {
           background-size: 300px;
@@ -317,11 +350,16 @@ export default {};
         }
       }
       .seventh {
-           background-image: url(@/assets/img/about-img-3.png);
-        background-position: left 100px start;
+        padding-top: 135px;
+        background-image: url(@/assets/img/about-img-3.png);
+        background-position-x: 100px;
+        background-position-y:  200px;
+        padding-bottom: 90px;
         @media (max-width: 1904px) {
           min-height: 400px;
           background-size: 35%;
+        }
+        @media (max-width: 1264px) {
         }
         @media (max-width: 960px) {
           background-size: 300px;
@@ -351,6 +389,7 @@ export default {};
 
         &-info {
           margin-left: 50%;
+          margin-bottom: 30px;
             @media (max-width: 960px) {
               padding-top: 10px;
               text-align: center;
@@ -363,9 +402,9 @@ export default {};
           h3 {
             font-weight: 700;
             font-size: 32px;
-            line-height: 43px;
+            line-height:43px;
             color: #217a73;
-            margin-bottom: 35px;
+            margin-bottom: 39px;
             @media(max-width:600px){
               font-size: 24px;
               line-height: 32px;
@@ -378,8 +417,9 @@ export default {};
           }
           p {
             color: #8a8a8a;
-            font-size: 22px;
-            line-height: 40px;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
             @media(max-width:600px){
               font-size: 16px;
               line-height: 32px;
@@ -405,11 +445,11 @@ export default {};
           width: 1209px;
           height: 350px;
           background: url(@/assets/img/arrow-down.png) no-repeat center/cover;
-          bottom: -240px;
-          right: 150px;
+          bottom: -171px;
+          right: 73px;
           @media (max-width: 1904px) {
             right: -10px;
-            bottom: -260px;
+            bottom: -210px;
             background-size: 80%;
           }
             @media (max-width:1500px) {
@@ -426,11 +466,11 @@ export default {};
           width: 601px;
           height: 302px;
           background: url(@/assets/img/arrow-down-2.png) no-repeat center/cover;
-          bottom: -195px;
-          right: 160px;
+          bottom: -172px;
+          right: 130px;
           @media (max-width:1904px) {
             right: 0;
-            bottom: -180px;
+            bottom: -150px;
           }
             @media (max-width:1500px) {
               right: -90px;
@@ -445,16 +485,16 @@ export default {};
             position: absolute;
             width: 100%;
             height: 100%;
-            top: 300px;
-            left: 5px;
+            top: 320px;
+            left: 13px;
             background: url(@/assets/img/third.png) no-repeat;
             @media (max-width:1904px) {
-              top: 380px;
+              top: 450px;
               background-size: 90%;
             }
               @media (max-width:1500px) {
               background-size: 90%;
-              top: 405px;
+              top: 515px;
             }
             @media (max-width: 960px) {
               display: none;
@@ -465,8 +505,8 @@ export default {};
           position: absolute;
           width: 100%;
           height: 100%;
-          top: 370px;
-          left: 300px;
+          top: 394px;
+          left: 293px;
           
           background: url(@/assets/img/fourth.png) no-repeat;
          
@@ -491,8 +531,8 @@ export default {};
           width: 100%;
           height: 100%;
           background: url(@/assets/img/fiveth.png) no-repeat;
-          bottom: -380px;
-          left: 20px;
+          bottom: -386px;
+          left: 141px;
           @media (max-width:1904px) {
           bottom: -360px;
           }
@@ -511,16 +551,16 @@ export default {};
           width: 100%;
           height: 100%;
           background: url(@/assets/img/sixth.png) no-repeat;
-          bottom: -250px;
-          left: 490px;
+          bottom: -361px;
+          left: 442px;
           @media (max-width:1904px) {
             background-size: 17%;
-            bottom: -300px;
+            bottom: -410px;
             left: 380px;
          
           }
             @media (max-width:1500px) {
-          bottom: -360px;
+          bottom: -490px;
           left: 290px;
           }
           @media (max-width: 960px) {

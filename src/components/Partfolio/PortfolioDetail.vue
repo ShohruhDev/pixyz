@@ -87,7 +87,7 @@ export default {
     white-space: nowrap;
     top: 50%;
     right: 50%;
-    transform: translate(50%, -50%);
+    transform: translate(50%, -10%);
     z-index: 2;
     opacity: 0;
 

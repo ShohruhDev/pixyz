@@ -100,7 +100,7 @@ export default {
         position: absolute;
         top: 50%;
         right: 50%;
-        transform: translate(50%, -50%);
+        transform: translate(65%, -45%);
         font-family: "Seg-bold";
         font-size: 40px;
         color: #ffffff;

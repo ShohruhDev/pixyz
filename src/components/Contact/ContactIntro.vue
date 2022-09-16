@@ -69,7 +69,8 @@ export default {
   }
 
   &-details-wrapper {
-    padding: 100px 0;
+    padding-top: 100px ;
+    padding-bottom: 30px;
   }
   .portfolio-header {
     background-image: url(@/assets/img/contact-img.png);

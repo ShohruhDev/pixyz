@@ -127,6 +127,7 @@ export default {
 <style lang="scss">
 .home-test {
   padding: 92px 0 90px 0;
+  margin-bottom: 100px;
   background: #f4f6fc;
     @media screen and (max-width: 960px) {
       padding: 30px 0;

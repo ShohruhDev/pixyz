@@ -17,7 +17,7 @@ export default {};
 
 <style lang="scss" scoped>
 .sub-footer {
-  padding: 20px 0;
+  padding: 10px 0;
   background: #ffffff;
    @media screen and (max-width: 600px) {
     }
