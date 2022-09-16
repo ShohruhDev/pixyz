@@ -284,11 +284,14 @@
       }
     }
     &-icons {
+      margin-top: 20px;
       @media screen and (max-width: 600px) {
         display: flex;
         justify-content: center;
       }
       svg {
+        // width: 100%;
+        // height: 100%;
         margin-left: 5px;
         margin-right: 2px;
         margin-top: -5px;
@@ -340,16 +343,20 @@
       }
     }
     &__icon {
-      padding-right: 30px;
-      padding-left: -10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 30px;
+      margin-left: -10px;
+      width: 30px;
+      
         @media screen and (max-width: 600px) {
           padding: 0;
       }
-    
+    svg {
+      width: 100%;
+      height: 100%;
     }
-    .adress {
-     padding-left: 12px;
-     padding-bottom: 25px;
     }
     &__span {
       display: flex;

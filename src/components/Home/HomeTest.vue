@@ -275,6 +275,7 @@ export default {
   .bio {
     display: flex;
     flex-direction: column;
+    padding-top: 10px;
 
     .name {
       font-family: "Seg-bold";
