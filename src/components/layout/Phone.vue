@@ -20,7 +20,7 @@
 <style lang="scss" scoped>
 .icon-phone {
     position: fixed;
-    bottom: 7%;
+    bottom: 32%;
     right: 8%;
     width: 58px;
     height: 58px;

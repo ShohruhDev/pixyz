@@ -5,7 +5,7 @@
       <div class="home-intro-wrapper">
         <div class="home-intro__title">
           <h1>Digital Agency <br/>and Marketing</h1>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing </p>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam  </p>
         </div>
         </div> 
       </div>
