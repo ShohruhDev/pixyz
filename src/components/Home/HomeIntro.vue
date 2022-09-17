@@ -43,7 +43,7 @@
     position: relative;
     z-index: 2;
     background-position-x: 0;
-    background-position-y: 5px;
+    background-position-y: 2px;
     
   
 .home-intro{
